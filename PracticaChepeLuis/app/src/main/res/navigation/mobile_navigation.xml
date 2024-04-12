@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="jose.iraheta.practicachepeluis.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="jose.iraheta.practicachepeluis.ui.gallery.GalleryFragment"
+        android:label="Informacion"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="jose.iraheta.practicachepeluis.ui.slideshow.SlideshowFragment"
+        android:label="Notas"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/fragment_codigos"
+        android:name="jose.iraheta.practicachepeluis.Fragment_codigos"
+        android:label="Codigo"
+        tools:layout="@layout/fragment_codigos" />
+    <fragment
+        android:id="@+id/fragment_Perfil"
+        android:name="jose.iraheta.practicachepeluis.Fragment_Perfil"
+        android:label="Perfil"
+        tools:layout="@layout/fragment__perfil" />
+</navigation>
